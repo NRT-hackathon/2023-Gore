@@ -11,7 +11,7 @@ To run the code in the repository the following Python packages are required:
 7) hdf5storage
 8) pathlib
 
-The script files accomplish the follow tasks and are best run in the following order. 
+The script files accomplish the follow tasks and are to be run in the following order. 
 
 1) Generate_Subvolumes_upload.py: Given the raw input files from the digital rocks portal (Project 374 in this case) this code takes each of the downloaded files
 and divides the cube into subvolumes that are 64 cubic voxels in size with at least two pore values in each of the structures. If this requirement is achieved,
