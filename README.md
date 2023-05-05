@@ -8,8 +8,8 @@ To run the code in the repository the following Python packages are required:
 4) Scikit learn
 5) Os
 6) Matplotlib
-7)hdf5storage
-8)pathlib
+7) hdf5storage
+8) pathlib
 
 The script files accomplish the follow tasks and are best run in the following order. 
 
