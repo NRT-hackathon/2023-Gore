@@ -17,11 +17,11 @@ The script files accomplish the follow tasks and are to be run in the following 
 and divides the cube into subvolumes that are 64 cubic voxels in size with at least two pore values in each of the structures. If this requirement is achieved,
 the subvolume is saved with the corresponding filename and subvolume number (global).
 
-2) Gan_Structure_Metrics_Upload.py: Takes a filelist of inputs for the structures generated in the previous code. Specifically, the code calculates for each file, 
-the porosity, porosity profile (across each of the dimensions) as well as the two point correlation function (Note: GooseEYE does not normalize properly, measurements above ~32 pixels may be biased). Each of these metrics is stored as a numpy array and
+2) Gan_Structure_Metrics_Upload.py: Takes a filelist of inputs for the structures generated in the previous code. Specifically, the code calculates for each file 
+the porosity, porosity profile, (across each of the dimensions) as well as the two point correlation function (Note: GooseEYE does not normalize properly, measurements above ~32 pixels may be biased). Each of these metrics is stored as a numpy array and
 saved with the appropriate filename. 
 
-3) Calculate_Statistics_Upload.py: Using the array of values saved from the previous code and calculates the average, standard deviation, and variance for each of the 
+3) Calculate_Statistics_Upload.py: Uses the array of values saved from the previous code and calculates the average, standard deviation, and variance for each of the 
 metrics. Using these values, the rest of the code plots histograms and various curves with error bars for each of the metrics. 
 
 
